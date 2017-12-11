@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.metromonial">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+       <activity android:name=".Activity.splash">
+
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+
+               <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+
+
+       </activity>
+
+        <activity android:name=".Activity.After_spalshActivity"/>
+
+        <activity android:name=".Activity.Serach_NowGuest"/>
+        <activity android:name=".Activity.LoginActivity"/>
+        <activity android:name=".Activity.RegisterActivity"/>
+        <activity android:name=".Activity.HomeActivity"/>
+        <activity android:name=".Activity.OTP_Activity">
+
+        </activity>
+        <activity android:name=".Activity.SearchActivity_multi">
+        </activity>
+        <activity android:name=".Activity.AdvanceSearchActivity"/>
+        <activity android:name=".Activity.ChatActivity"/>
+        <activity android:name=".Activity.MeilleureCouple"/>
+        <activity android:name=".Activity.MyProfileActivity"/>
+        <activity android:name=".Activity.ProfileUser"/>
+        <activity android:name=".Activity.CreateProfileActivity"/>
+
+
+    </application>
+
+</manifest>

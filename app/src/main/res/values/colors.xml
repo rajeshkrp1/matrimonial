@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4f60</color>
+    <color name="colorPrimaryDark">#ff4f60</color>
+    <color name="colorAccent">#ff4f60</color>
+    <color name="tabselected">#3f69cc</color>
+    <color name="tabunselected">#757575</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="tintcolor">#FFFFFF</color>
+    <color name="bookTitleColor">#1e1e1e</color>
+    <color name="emailedittext">#8f8f8f</color>
+    <color name="emailiconbackground">#474646</color>
+    <color name="chooseAddress">#0082ca</color>
+    <color name="bookprice">#4e4d4d</color>
+    <color name="discount">#616161</color>
+    <color name="offerbackground">#81b20c</color>
+    <color name="navtextcolor">#687890</color>
+    <color name="black">#212121</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFFF</color>
+    <color name="lightwhite">#fbfbfb</color>
+    <color name="teal">#6dcded</color>
+    <color name="darkTeal">#20aad7</color>>
+    <color name="light_black">#222222</color>
+    <color name="transparent_black">#00000000</color>
+    <color name="gold">#d7a900</color>
+    <color name="lightPurple">#D9BCEB</color>
+    <color name="ultraLightPurple">#f7f1fb</color>
+    <color name="darkPurple">#39275B</color>
+    <color name="ultraUltraLightGray">#EBEBEB</color>
+    <color name="ultraLightGray_Lowlight">#c1c1c1</color>
+    <color name="ultraLightGray_UltraLowlight">#dadada</color>
+    <color name="ultraLightGray">#B3B3B3</color>
+    <color name="lightGray">#7A7A7A</color>
+    <color name="mediumGray">#333333</color>
+    <color name="darkGray">#4F4F4F</color>
+    <color name="ultraDarkGray">#222222</color>
+    <color name="lightRed">#FA9191</color>
+    <color name="lightRed_Pressed">#dc8080</color>
+    <color name="lightRed_Disabled">#eaeaea</color>
+    <color name="lightBlue">#ff0ba9fa</color>
+    <color name="lightBlue_Pressed">#ff1773dc</color>
+    <color name="lightBlue_Disabled">#eaeaea</color>
+    <color name="darkBlue">#0c86ae</color>
+    <color name="green">#64911c</color>
+    <color name="redfine">#b22222</color>
+    <color name="orange_deep">#ff6600</color>
+    <color name="skyblue">#87cefa</color>
+    <color name="your_color">#000000</color>
+    <color name="colorhomestory_white">#ffff</color>
+    <color name="grayline">#EEE</color>
+    <color name="headerclolor">#212121</color>
+
+
+    //-----LOginpg Color code---//
+
+    <color name="Tutor">#f5ffff</color>
+    <color name="email_hint">#ebeffa</color>
+    <color name="password_hint">#c4e7fa</color>
+    <color name="forgot">#a4e0fa</color>
+    <color name="signup">#e1f5f8</color>
+    <color name="not_mem">#91c7e0</color>
+    <color name="regis_bg">#4d5d74</color>
+    <color name="regi_text">#d1dec0</color>
+    <color name="log_text">#64676c</color>
+    <color name="bg">#347ebf</color>
+    //----signuppg color code---//
+    <color name="hint">#ebeffa</color>    //---------pop Window----------//
+    <color name="confirm">#2385e5</color>
+    <color name="confirm1">#a56f6769</color>
+
+    <color name="rating">#DAA520</color>
+    <color name="deedblue">#126c94</color>
+
+    <color name="big_gray">#dfdfdf</color>
+    <color name="big_black">#757575</color>
+    <color name="light_blue">#91aff1</color>
+    <color name="big_lightgray">#bdbdbd</color>
+    <color name="big_blue">#3f69cc</color>
+    <color name="redcolor">#ff0000</color>
+
+
+    <color name="search_layover_bg">@color/gray</color>
+    <color name="search_field_bg">@color/white_ish</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="gray">#ff888888</color>
+
+    <color name="white_50">#88ffffff</color>
+    <color name="black_50">#88000000</color>
+    <color name="gray_50">#88888888</color>
+
+    <color name="white_ish">#fffefefe</color>
+</resources>

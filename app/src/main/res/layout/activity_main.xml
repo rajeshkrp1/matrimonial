@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:alpha="0.9"
+    android:background="@color/log_text"
+android:orientation="vertical">
+
+<!-- Top Sliding Banners -->
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    android:layout_marginTop="110dp"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ring"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/presantation"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:text="Presention voluptatum ?"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/textview"
+        android:layout_below="@+id/presantation"
+        android:text="Lorazepam should never be shared with another person, especially someone who has a history of drug abuse or addiction. Keep the medication in a secure place where others cannot get to it."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:padding="2dip"
+        app:centered="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="280dp"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="#ffffff"
+        app:snap="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/indicator"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+android:background="@color/white"
+            android:text="LOGIN"
+            android:id="@+id/loginbtn"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:textSize="13sp"
+
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:id="@+id/registerBtn"
+            android:text="REGISTER"
+            android:textSize="13sp"
+android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/button"
+        android:weightSum="3"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearlayiutorligin"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:layout_marginRight="5dp"
+            android:layout_height="0.5dp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="OR LOGIN WITH"
+                android:textColor="#fff"
+                android:textSize="10sp"
+                android:layout_marginTop="-3dp"
+                android:layout_height="wrap_content" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:layout_marginLeft="-12dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="0.5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linearlayiutorligin"
+        android:orientation="horizontal"
+        android:id="@+id/facebook"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="25dp"
+            android:background="@drawable/f"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:padding="25dp"
+            android:background="@drawable/g"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/facebook"
+        android:text="New on Meilleure couple ?"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textStyle="bold"
+        android:id="@+id/mmm"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mmm"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Search Now"
+
+        android:id="@+id/button_serchguest"
+        android:textColor="@color/white"
+        android:background="@color/darkBlue"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+</LinearLayout>

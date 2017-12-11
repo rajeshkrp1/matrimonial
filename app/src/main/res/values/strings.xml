@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Matrimonial</string>
+    <string name="please_wait">Please Wait...</string>
+
+    <array name="cuntry">
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+        <item>India</item>
+    </array>
+
+</resources>
