@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.admin.metromonial.R;
 
@@ -34,6 +35,7 @@ public class AdvanceSearchActivity extends AppCompatActivity {
         spinnerEducation= (Spinner) findViewById(R.id.spinnerEducation);
         spinnerMsataus= (Spinner) findViewById(R.id.spinnerMsataus);
         spinnerReligion= (Spinner) findViewById(R.id.spinnerReligion);
+        Toast.makeText(this, "dsfsf", Toast.LENGTH_SHORT).show();
 
 
 
